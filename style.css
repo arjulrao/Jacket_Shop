@@ -7,3 +7,19 @@ html, body{
     height: 100%;
     width: 100%;
 }
+#main-container{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+nav{
+    padding: 20px 15px;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+nav a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+}
