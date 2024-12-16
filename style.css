@@ -13,6 +13,7 @@ html, body{
     background-color: #fff;
 }
 nav{
+    height: 10%;
     padding: 20px 15px;
     display: flex;
     justify-content: end;
@@ -23,8 +24,14 @@ nav a{
     text-decoration: none;
     color: #000;
 }
+a:hover{
+    color: gray;
+    text-decoration: underline;
+}
 main{
-    padding: 50px 20px 50px 50px;
+    color: #000;
+    height: 60%;
+    padding: 50px 20px 30px 50px;
 }
 main h1{
     width: 50%;
@@ -48,12 +55,13 @@ main h1{
 }
 .link-cont{
     width: 100%;
-    border-top: 2px solid black;
+    border-top: 2px solid #000;
     padding: 18px 10px 18px 0;
     display: flex;
     justify-content: space-between;
 }
 .link-cont a{
+    font-size: 18px;
     color: #000;
     text-decoration: none;
 }
@@ -70,4 +78,10 @@ main h1{
 .link-cont:hover i{
     color: gray;
     visibility: visible;
+}
+footer{
+    height: 30%;
+    background-image: url(./img/bg-img.jpg);
+    background-position: center;
+    background-size: cover;
 }
